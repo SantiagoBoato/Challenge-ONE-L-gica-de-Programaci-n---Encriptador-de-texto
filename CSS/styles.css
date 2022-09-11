@@ -1,0 +1,473 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+body{
+    position: static;
+    width: 100%;
+    height: 100vh;
+    background: #F3F5FC;
+}
+
+main{
+    position: static;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0%;
+    gap: 40px;
+    position: absolute;
+
+    width: 120px;
+    height: 48px;
+    left: 2.78%;
+    top: 3.9vh;
+}
+
+.mensaje{
+    position: absolute;
+
+    width: 47.22%;
+    height: 65.45vh;
+    left: 16.66%;
+    top: 16.41vh;
+    
+    font-size: 1.5em;
+    line-height: 150%;
+    
+    background: #F3F5FC;
+    color: #0A3871;
+    text-align: left;
+    border: none;
+}
+
+.mensaje::placeholder{
+    color: #0A3871;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0.1em;
+    gap: 8px;
+    position: absolute;
+
+    width: 36%;
+    height: 2.176vh;
+    left: 16.67%;
+    top: 83.1vh;
+}
+
+.advertencia p{
+    font-size: 0.8em;
+    padding: 0.1em;
+
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    height: 2.176vh;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.botonera{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    gap: 24px;
+    position: absolute;
+
+    left: 16.67%;
+    width: 47.22%;
+    top: 86.426vh;
+    height: 6.7vh;
+   
+}
+
+button{
+    display: inline;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding: 24px;
+    gap: 8px;
+    box-sizing: border-box;
+
+    width: 22.78%;
+    height: 6.54vh;
+
+    border-radius: 24px;
+
+    
+    line-height: 1.85%;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+}
+
+.encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    color: white;
+    border: none;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    flex:none;
+    order: 1;
+    flex-grow: 1;
+    color: #0A3871;
+}
+
+.rectangulo{
+    position: absolute;
+
+    width: 27.8%;
+    height: 92.19vh;
+    left: 69.44%;
+    top: 3.90vh;
+
+    background-color:  #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+} 
+
+.resultado{
+    background-image: url("../imagenes/Muñeco.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+
+    position: absolute;
+    width: 84%;
+    height: 82.73%;
+    
+    left: 8%;
+    top: 2.33%;
+
+    line-height: 150%;
+    border: none;
+}
+
+.resultado:focus{
+    outline: none;
+}
+
+.cuadro-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0em;
+    gap: 0.3em;
+    position: absolute;
+
+    width: 84%;
+    height: 13vh;
+    left: 10%;
+    top: 61.33%;
+
+}
+
+.cuadro-texto h2{
+    width: 84%;
+    height: auto;
+
+    font-weight: 700;
+    
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.cuadro-texto p{
+    width: 84%;
+    height: auto;
+
+
+    line-height: 150%;
+
+    text-align: center;
+    color: #495057;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    color: #0A3871;
+
+    position: absolute;
+
+    width: 84%;
+    left: 9%;
+    top: 89.5%;
+}
+
+footer {
+    text-align: center;
+    background: url(../imagenes/footer.jpg);
+    padding: 5px;
+}
+
+.logo-personal{
+    width: 160px;
+    height: 160px;
+}
+
+.info-rodapie{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+ul{
+    margin-top: 69px;
+    height: max-content;
+}
+
+
+@media screen and (max-width:768px){
+
+    .logo{
+     width: 100px;
+     height: 40px;
+    }
+    
+    .mensaje{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 89%;
+        height: 40vh;
+        left: 5.2%;
+        top: 14vh;
+    }
+    
+    .advertencia{
+        left: 6.67%;
+        top: 57vh; 
+    }
+    
+    .botonera{
+        width: 89.8%;
+        height: fit-content;
+        left: 5.2%;
+        top: 62vh;
+    }
+
+    button{
+        padding: 15px;
+    }
+
+    .rectangulo{
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 90%;
+        height: 26vh;
+        left: 5.3%;
+        top: 73vh;        
+    } 
+    
+    .resultado{
+        background-image: none;
+
+        width: 90.7%;
+        height: 59%;
+        left: 4.7%;
+        top: 5%;
+    }
+    
+    .cuadro-texto{
+        left: 17%;
+        top: 1vh;
+    }
+    
+    .copiar{
+        width: 81.25%;
+        left: 9.651%;
+        top: 17.5vh;
+    }
+}
+
+@media screen and (max-width:425px){
+   
+    .logo{
+        width: 100px;
+        height: 40px;
+    }
+
+    .mensaje{  
+        width: 89%;
+        height: 28vh;
+        left: 5.5%;
+        top: 13vh;
+    }
+    
+    .advertencia{
+        width: 70%;
+        left: 6.67%;
+        top: 40vh; 
+    }
+    
+    button{
+        padding: 10px;
+        width: 100%
+    }
+    
+    .botonera{
+        flex-direction: column;
+        gap: 10px;
+
+        left: 5.5%;
+        width: 89.5%;
+        top: 45vh;
+        height: 6.7vh;
+    }
+
+    .rectangulo{
+        padding: 30px;
+        width: 73%;
+        height: 19vh;
+        left: 5.5%;
+        top: 64vh;
+    }
+    
+    .resultado{
+        width: 90.7%;
+        height: 59.48%;
+        left: 4%;
+        top: 4.33%;
+    }
+    
+    .cuadro-texto{
+        left: 14%;
+    }
+    
+    .copiar{
+        width: 81.25%;
+        left: 9.651%;
+        top: 70%;
+    }
+
+}
+
+@media screen and (max-width:375px){
+    .logo{
+        width: 87.5px;
+        height: 35px;
+    }
+
+    .mensaje{  
+        left: 5.5%;
+        top: 13vh;
+    }
+
+    .advertencia{
+        left: 6.67%;
+        top: 43vh;
+    }
+
+    button{
+        padding: 8px;
+    }
+    
+    .botonera{
+        gap: 7px;
+
+        left: 5.5%;
+        width: 89.5%;
+        top: 48vh;
+        height: 6.7vh;
+    }
+
+    .rectangulo{
+        width: 73%;
+        height: 16vh;
+        left: 5.5%;
+    }
+    
+    .cuadro-texto h2{ 
+        font-size: 0.95em; 
+    }
+    
+    .cuadro-texto p{
+        font-size: 0.75em;    
+    }
+    
+    .copiar{
+        width: 81.25%;
+        left: 9.651%;
+        top: 72%;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    *{
+        font-size: 0.9em;
+    }
+    
+    .logo{
+        width: 75px;
+        height: 30px;
+    }
+
+    button{
+        padding: 5px;
+    }
+
+    .rectangulo{
+        top: 65vh;
+        left: 4.2%;
+    }
+
+    .copiar{
+        top: 68%;
+    }
+}
+
+
+
+
+
+
+
+
