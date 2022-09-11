@@ -77,11 +77,12 @@ function copiar(){
     var mensajeEncriptado =inputResultado.value;
 
     if (comprobarContenidoVacio(mensajeEncriptado)) {
-
-        navigator.clipboard.writeText(mensajeEncriptado);
+        
+        inputResultado.select();
+        document.execCommand("copy");
 
         alert('Mensaje copiado!');
-        
+
         vaciar(inputResultado);
 
         cambioPantalla();
@@ -89,6 +90,8 @@ function copiar(){
     }else{
         cambioPantalla();
     }
+
+    
     
 }
 
