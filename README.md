@@ -3,7 +3,8 @@
 ![Encriptador de textos (1)](https://user-images.githubusercontent.com/92491547/190250228-0bab87ce-e2a8-4975-9383-8602800b9f2a.png)
 
 ## Descripcion:
-- Este es mi resultado del Challenge-ONE-Sprint-01-LogicaDeProgramacion. Es mi primer pagina web y tiene puntos a mejorar, principalmente la configuracion para dispositivos moviles. Seguira mejorando a futuro. :turtle:
+- Este es mi resultado del Challenge-ONE-Sprint-01-LogicaDeProgramacion. Es mi primer pagina web y tiene varios puntos a mejorar.
+- Seguira mejorando :turtle:
  
 ## Resultado: 
  https://santiagoboato.github.io/Challenge-ONE-Sprint-01-LogicaDeProgramacion/
